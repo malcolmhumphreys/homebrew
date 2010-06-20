@@ -1,8 +1,8 @@
 require 'formula'
 
 class Openimageio <Formula
-  head 'http://svn.openimageio.org/oiio/branches/RB-0.8/', :using => :svn
-  version "0.8"
+  head 'http://svn.openimageio.org/oiio/tags/Release-0.8.1/', :using => :svn
+  version "0.8.1"
   homepage 'http://openimageio.org'
 
   depends_on 'pkg-config'
